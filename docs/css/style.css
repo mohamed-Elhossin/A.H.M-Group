@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  width: 60px;
 }
 
 @media (max-width: 992px) {
@@ -630,17 +630,26 @@ section {
 .why-us .icon-boxes .icon-box {
   text-align: center;
   background: #fff;
-  padding: 40px 30px;
-  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px black;
   border: 1px solid #eef0ef;
+padding: 0px 20px;
 }
+.why-us .icon-boxes .testbox{
+  width: auto;
+  background-color: red;
+  padding: 10px 10px 0px 0px;
+  border-radius: 20px;
+  border-right: 5px dashed black;
+  border-top: 5px dashed black;
 
-.why-us .icon-boxes .icon-box i {
-  font-size: 32px;
+}
+.why-us  i {
+  font-size: 25px;
   padding: 18px;
   color: #5fcf80;
-  margin-bottom: 30px;
-  background: #ecf9f0;
+margin-top: 5px;
   border-radius: 50px;
 }
 
@@ -1492,3 +1501,4 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
